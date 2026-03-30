@@ -1,0 +1,7 @@
+{
+  "name": "wails-template-solid",
+  "shortname": "wails-template-solid",
+  "author": "kamiertop",
+  "description": "Wails Template of Solid with TypeScritpt and TanstackRouter",
+  "helpurl": "https://github.com/kamiertop/wails-template-solid"
+}
