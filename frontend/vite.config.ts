@@ -4,10 +4,10 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 
 export default defineConfig({
   plugins: [
-    solid(),
     tanstackRouter({
       target: "solid",
       autoCodeSplitting: true,
     }),
+    solid(),
   ],
 });
