@@ -1,4 +1,4 @@
-import { Outlet, createRootRoute } from "@tanstack/solid-router";
+import { Link, Outlet, createRootRoute } from "@tanstack/solid-router";
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -6,9 +6,14 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <>
-      <div>Hello "__root"!</div>
-      <Outlet />
-    </>
+    <div>
+      <header>
+        <h1>Wails Template</h1>
+      </header>
+      <main>
+        <Outlet />
+      </main>
+    </div>
   );
 }
+
